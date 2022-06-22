@@ -1,0 +1,1076 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build-NUCLEO-F303K8/CMakeFiles/3.21.3/CMakeSystem.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build-NUCLEO-F303K8/toolchain.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build-NUCLEO-F303K8/CMakeFiles/3.21.3/CMakeMikroCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/ric_e/AppData/Local/Mikroe/NECTOStudio2/cmake/CMakeMikroCInformation.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART/MikroSDK.Driver.UARTConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART/MikroSDK.Driver.UARTConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART/MikroSDK.Hal.UARTConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART/MikroSDK.Hal.UARTConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART/MikroSDK.HalLowLevel.UARTConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART/MikroSDK.HalLowLevel.UARTConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART/MikroSDK.HalLowLevel.UARTTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART/MikroSDK.HalLowLevel.UARTTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART/MikroSDK.Hal.UARTTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART/MikroSDK.Hal.UARTTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART/MikroSDK.Driver.UARTTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART/MikroSDK.Driver.UARTTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out/MikroSDK.Driver.GPIO.OutConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out/MikroSDK.Driver.GPIO.OutConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO/MikroSDK.Hal.GPIOConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO/MikroSDK.Hal.GPIOConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO/MikroSDK.HalLowLevel.GPIOConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO/MikroSDK.HalLowLevel.GPIOConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO/MikroSDK.HalLowLevel.GPIOTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO/MikroSDK.HalLowLevel.GPIOTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO/MikroSDK.Hal.GPIOTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO/MikroSDK.Hal.GPIOTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out/MikroSDK.Driver.GPIO.OutTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out/MikroSDK.Driver.GPIO.OutTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In/MikroSDK.Driver.GPIO.InConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In/MikroSDK.Driver.GPIO.InConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO/MikroSDK.Hal.GPIOConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO/MikroSDK.Hal.GPIOConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO/MikroSDK.HalLowLevel.GPIOConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO/MikroSDK.HalLowLevel.GPIOConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO/MikroSDK.HalLowLevel.GPIOTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO/MikroSDK.Hal.GPIOTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In/MikroSDK.Driver.GPIO.InTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In/MikroSDK.Driver.GPIO.InTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC/MikroSDK.Driver.ADCConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC/MikroSDK.Driver.ADCConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC/MikroSDK.Hal.ADCConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC/MikroSDK.Hal.ADCConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC/MikroSDK.HalLowLevel.ADCConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC/MikroSDK.HalLowLevel.ADCConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore/MikroSDK.HalLowLevelCoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon/MikroSDK.HalLowLevelCommonTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC/MikroSDK.HalLowLevel.ADCTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC/MikroSDK.HalLowLevel.ADCTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC/MikroSDK.Hal.ADCTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC/MikroSDK.Hal.ADCTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC/MikroSDK.Driver.ADCTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC/MikroSDK.Driver.ADCTargets-debug.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Board/MikroSDK.BoardConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Board/MikroSDK.BoardConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer/MikroSDK.RingBufferTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface/MikroSDK.HalInterfaceTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.MikroBus/MikroSDK.MikroBusConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.MikroBus/MikroSDK.MikroBusConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.MikroBus/MikroSDK.MikroBusTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroSDK.Board/MikroSDK.BoardTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfigVersion.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : ".meproject/setup/Debug/lib/cmake/MikroC.Core/MikroC.CoreTargets.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8",
+		"source" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

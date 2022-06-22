@@ -1,0 +1,34 @@
+main@_main
+	__FillZeros@___FillZeros
+	SystemConfig@_SystemConfig
+		MX_GPIO_Init@drv_app_MX_GPIO_Init
+			digital_in_init@_digital_in_init
+				hal_gpio_configure_pin@_hal_gpio_configure_pin
+					hal_ll_gpio_configure_pin@_hal_ll_gpio_configure_pin
+						hal_ll_gpio_port_index@_hal_ll_gpio_port_index
+						hal_ll_gpio_port_base@_hal_ll_gpio_port_base
+						hal_ll_gpio_pin_mask@_hal_ll_gpio_pin_mask
+							hal_ll_gpio_pin_index@hal_ll_gpio_port_hal_ll_gpio_pin_index
+						hal_ll_gpio_digital_input@_hal_ll_gpio_digital_input
+							hal_ll_gpio_config@hal_ll_gpio_port_hal_ll_gpio_config
+								hal_ll_gpio_clock_enable@hal_ll_gpio_port_hal_ll_gpio_clock_enable
+						hal_ll_gpio_digital_output@_hal_ll_gpio_digital_output
+							hal_ll_gpio_config@hal_ll_gpio_port_hal_ll_gpio_config
+		MX_ADC1_Init@drv_app_MX_ADC1_Init
+		MX_UART2_Init@drv_app_MX_UART2_Init
+UART2_IRQHandler@_UART2_IRQHandler
+	hal_uart_irq_handler@_hal_uart_irq_handler
+		ring_buf8_is_full@_ring_buf8_is_full
+		hal_ll_uart_irq_disable@_hal_ll_uart_irq_disable
+			hal_ll_get_specifics@hal_ll_uart_hal_ll_get_specifics
+			hal_ll_core_disable_irq@_hal_ll_core_disable_irq
+				hal_ll_core_port_nvic_disable_irq@_hal_ll_core_port_nvic_disable_irq
+		hal_ll_uart_read@_hal_ll_uart_read
+			hal_ll_get_specifics@hal_ll_uart_hal_ll_get_specifics
+		ring_buf8_push@_ring_buf8_push
+		ring_buf8_pop@_ring_buf8_pop
+		hal_ll_uart_write@_hal_ll_uart_write
+			hal_ll_get_specifics@hal_ll_uart_hal_ll_get_specifics
+		ring_buf8_is_empty@_ring_buf8_is_empty
+UART1_IRQHandler@_UART1_IRQHandler
+	hal_uart_irq_handler@_hal_uart_irq_handler

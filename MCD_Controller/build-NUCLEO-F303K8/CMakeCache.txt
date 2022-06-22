@@ -14,42 +14,51 @@
 # EXTERNAL cache entries
 ########################
 
-//No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:UNINITIALIZED=Debug
+CMAKE_BUILD_TYPE:STRING=Debug
 
-//No help, variable specified on the command line.
-CMAKE_EXPORT_COMPILE_COMMANDS:UNINITIALIZED=1
+CMAKE_COMMAND:STRING=D:/NECTOStudio/NECTOStudio/CMake/bin/cmake.exe
 
-//Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/MCD_Controller
+CMAKE_CPACK_COMMAND:STRING=D:/NECTOStudio/NECTOStudio/CMake/bin/cpack.exe
 
-//No help, variable specified on the command line.
-CMAKE_MAKE_PROGRAM:UNINITIALIZED=D:/NECTOStudio/NECTOStudio/ninja.exe
+CMAKE_CTEST_COMMAND:STRING=D:/NECTOStudio/NECTOStudio/CMake/bin/ctest.exe
 
-//Value Computed by CMake
-CMAKE_PROJECT_DESCRIPTION:STATIC=
+CMAKE_EXPORT_COMPILE_COMMANDS:STRING=1
 
-//Value Computed by CMake
-CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
+CMAKE_EXTRA_GENERATOR:STRING=
 
-//Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=MCD_Controller
+CMAKE_GENERATOR:STRING=Ninja
 
-//If set, runtime paths are not added when installing shared libraries,
-// but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
+CMAKE_GENERATOR_INSTANCE:STRING=
 
-//If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=NO
+CMAKE_GENERATOR_PLATFORM:STRING=
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8/toolchain.cmake
+CMAKE_GENERATOR_TOOLSET:STRING=
 
-//If this value is on, makefiles will be generated without the
-// .SILENT directive, and all commands will be echoed to the console
-// during the make.  This is useful for debugging only. With Visual
-// Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+CMAKE_HOME_DIRECTORY:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller
+
+CMAKE_INSTALL_PREFIX:STRING=C:/Program Files (x86)/MCD_Controller
+
+CMAKE_MAKE_PROGRAM:STRING=D:/NECTOStudio/NECTOStudio/ninja.exe
+
+CMAKE_PLATFORM_INFO_INITIALIZED:STRING=1
+
+CMAKE_PROJECT_DESCRIPTION:STRING=
+
+CMAKE_PROJECT_HOMEPAGE_URL:STRING=
+
+CMAKE_PROJECT_NAME:STRING=MCD_Controller
+
+CMAKE_ROOT:STRING=D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21
+
+CMAKE_SKIP_INSTALL_RPATH:STRING=NO
+
+CMAKE_SKIP_RPATH:STRING=NO
+
+CMAKE_TOOLCHAIN_FILE:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8/toolchain.cmake
+
+CMAKE_VERBOSE_MAKEFILE:STRING=FALSE
+
+CMAKE_mikroC_COMPILER_WORKS:STRING=1
 
 CORE_LIB:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/lib_core.a
 
@@ -57,28 +66,53 @@ CORE_NAME:STRING=M4EF
 
 JCFG_FILE:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/STM32F303K8.jcfg
 
-//Value Computed by CMake
-MCD_Controller_BINARY_DIR:STATIC=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8
+MCD_Controller_BINARY_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8
 
-//Value Computed by CMake
-MCD_Controller_IS_TOP_LEVEL:STATIC=ON
+MCD_Controller_IS_TOP_LEVEL:STRING=ON
 
-//Value Computed by CMake
-MCD_Controller_SOURCE_DIR:STATIC=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller
+MCD_Controller_SOURCE_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller
 
 MCU_NAME:STRING=STM32F303K8
 
-//No help, variable specified on the command line.
-MIKROSDK_TYPE:UNINITIALIZED=mikrosdk
+MIKROSDK_TYPE:STRING=mikrosdk
 
-//No help, variable specified on the command line.
-MSDK_BUILD_TFT_MODULES:UNINITIALIZED=FALSE
+MSDK_BUILD_TFT_MODULES:STRING=FALSE
 
-//The directory containing a CMake configuration file for MikroC.Core.
-MikroC.Core_DIR:PATH=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroC.Core
+MikroC.Core_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroC.Core
 
-//No help, variable specified on the command line.
-NECTO_DESIGNER_GENERATOR_PATH:UNINITIALIZED=D:/NECTOStudio/NECTOStudio/vtft_generator.exe
+MikroSDK.Board_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Board
+
+MikroSDK.Driver.ADC_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC
+
+MikroSDK.Driver.GPIO.In_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In
+
+MikroSDK.Driver.GPIO.Out_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out
+
+MikroSDK.Driver.UART_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART
+
+MikroSDK.Hal.ADC_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC
+
+MikroSDK.Hal.GPIO_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO
+
+MikroSDK.Hal.UART_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART
+
+MikroSDK.HalInterface_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface
+
+MikroSDK.HalLowLevel.ADC_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC
+
+MikroSDK.HalLowLevel.GPIO_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO
+
+MikroSDK.HalLowLevel.UART_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART
+
+MikroSDK.HalLowLevelCommon_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon
+
+MikroSDK.HalLowLevelCore_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore
+
+MikroSDK.MikroBus_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.MikroBus
+
+MikroSDK.RingBuffer_DIR:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer
+
+NECTO_DESIGNER_GENERATOR_PATH:STRING=D:/NECTOStudio/NECTOStudio/vtft_generator.exe
 
 OSC:STRING=1
 
@@ -86,8 +120,7 @@ SEARCH_PATHS:STRING=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_C
 
 TOOLCHAIN_ID:STRING=mikrocarm
 
-//No help, variable specified on the command line.
-TOOLCHAIN_LANGUAGE:UNINITIALIZED=MikroC
+TOOLCHAIN_LANGUAGE:STRING=MikroC
 
 _MSDK_BOARD_NAME_:STRING=GENERIC_BOARD
 
@@ -110,25 +143,6 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=21
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
-//Path to CMake executable.
-CMAKE_COMMAND:INTERNAL=D:/NECTOStudio/NECTOStudio/CMake/bin/cmake.exe
-//Path to cpack program executable.
-CMAKE_CPACK_COMMAND:INTERNAL=D:/NECTOStudio/NECTOStudio/CMake/bin/cpack.exe
-//Path to ctest program executable.
-CMAKE_CTEST_COMMAND:INTERNAL=D:/NECTOStudio/NECTOStudio/CMake/bin/ctest.exe
-//Name of external makefile project generator.
-CMAKE_EXTRA_GENERATOR:INTERNAL=
-//Name of generator.
-CMAKE_GENERATOR:INTERNAL=Ninja
-//Generator instance identifier.
-CMAKE_GENERATOR_INSTANCE:INTERNAL=
-//Name of generator platform.
-CMAKE_GENERATOR_PLATFORM:INTERNAL=
-//Name of generator toolset.
-CMAKE_GENERATOR_TOOLSET:INTERNAL=
-//Source directory with the top level CMakeLists.txt file for this
-// project
-CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller
 CMAKE_MikroC_COMPILER:INTERNAL=D:/NECTOStudio/NECTOStudio/compilers/ARM/mikroC/mikroCARM.exe
 CMAKE_MikroC_COMPILER_FORCED:INTERNAL=TRUE
 CMAKE_MikroC_COMPILER_ID:INTERNAL=mikroC
@@ -136,15 +150,10 @@ CMAKE_MikroC_COMPILER_ID_RUN:INTERNAL=TRUE
 CMAKE_MikroC_COMPILER_WORKS:INTERNAL=TRUE
 //number of local generators
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
-//Platform information initialized
-CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
-//Path to CMake installation.
-CMAKE_ROOT:INTERNAL=D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21
 //ADVANCED property for variable: CMAKE_SKIP_INSTALL_RPATH
 CMAKE_SKIP_INSTALL_RPATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SKIP_RPATH
 CMAKE_SKIP_RPATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-CMAKE_mikroC_COMPILER_WORKS:INTERNAL=1
 

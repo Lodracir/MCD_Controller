@@ -7,10 +7,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : ""
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "Debug"
 		},
 		{
@@ -67,10 +67,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to CMake executable."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "D:/NECTOStudio/NECTOStudio/CMake/bin/cmake.exe"
 		},
 		{
@@ -79,10 +79,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to cpack program executable."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "D:/NECTOStudio/NECTOStudio/CMake/bin/cpack.exe"
 		},
 		{
@@ -91,10 +91,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to ctest program executable."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "D:/NECTOStudio/NECTOStudio/CMake/bin/ctest.exe"
 		},
 		{
@@ -103,10 +103,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : ""
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "1"
 		},
 		{
@@ -115,10 +115,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Name of external makefile project generator."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : ""
 		},
 		{
@@ -127,10 +127,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Name of generator."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "Ninja"
 		},
 		{
@@ -139,10 +139,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Generator instance identifier."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : ""
 		},
 		{
@@ -151,10 +151,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Name of generator platform."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : ""
 		},
 		{
@@ -163,10 +163,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Name of generator toolset."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : ""
 		},
 		{
@@ -175,10 +175,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller"
 		},
 		{
@@ -187,10 +187,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Install path prefix, prepended onto install directories."
+					"value" : ""
 				}
 			],
-			"type" : "PATH",
+			"type" : "STRING",
 			"value" : "C:/Program Files (x86)/MCD_Controller"
 		},
 		{
@@ -199,10 +199,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : ""
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "D:/NECTOStudio/NECTOStudio/ninja.exe"
 		},
 		{
@@ -283,10 +283,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Platform information initialized"
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "1"
 		},
 		{
@@ -295,10 +295,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : ""
 				}
 			],
-			"type" : "STATIC",
+			"type" : "STRING",
 			"value" : ""
 		},
 		{
@@ -307,10 +307,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : ""
 				}
 			],
-			"type" : "STATIC",
+			"type" : "STRING",
 			"value" : ""
 		},
 		{
@@ -319,10 +319,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : ""
 				}
 			],
-			"type" : "STATIC",
+			"type" : "STRING",
 			"value" : "MCD_Controller"
 		},
 		{
@@ -331,10 +331,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to CMake installation."
+					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21"
 		},
 		{
@@ -347,10 +347,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+					"value" : ""
 				}
 			],
-			"type" : "BOOL",
+			"type" : "STRING",
 			"value" : "NO"
 		},
 		{
@@ -363,10 +363,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "If set, runtime paths are not added when using shared libraries."
+					"value" : ""
 				}
 			],
-			"type" : "BOOL",
+			"type" : "STRING",
 			"value" : "NO"
 		},
 		{
@@ -375,10 +375,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : ""
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8/toolchain.cmake"
 		},
 		{
@@ -391,10 +391,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+					"value" : ""
 				}
 			],
-			"type" : "BOOL",
+			"type" : "STRING",
 			"value" : "FALSE"
 		},
 		{
@@ -406,7 +406,7 @@
 					"value" : ""
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "1"
 		},
 		{
@@ -451,10 +451,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : ""
 				}
 			],
-			"type" : "STATIC",
+			"type" : "STRING",
 			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8"
 		},
 		{
@@ -463,10 +463,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : ""
 				}
 			],
-			"type" : "STATIC",
+			"type" : "STRING",
 			"value" : "ON"
 		},
 		{
@@ -475,10 +475,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : ""
 				}
 			],
-			"type" : "STATIC",
+			"type" : "STRING",
 			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller"
 		},
 		{
@@ -499,10 +499,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : ""
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "mikrosdk"
 		},
 		{
@@ -511,10 +511,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : ""
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "FALSE"
 		},
 		{
@@ -523,11 +523,203 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for MikroC.Core."
+					"value" : ""
 				}
 			],
-			"type" : "PATH",
+			"type" : "STRING",
 			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroC.Core"
+		},
+		{
+			"name" : "MikroSDK.Board_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Board"
+		},
+		{
+			"name" : "MikroSDK.Driver.ADC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.ADC"
+		},
+		{
+			"name" : "MikroSDK.Driver.GPIO.In_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.In"
+		},
+		{
+			"name" : "MikroSDK.Driver.GPIO.Out_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.GPIO.Out"
+		},
+		{
+			"name" : "MikroSDK.Driver.UART_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Driver.UART"
+		},
+		{
+			"name" : "MikroSDK.Hal.ADC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.ADC"
+		},
+		{
+			"name" : "MikroSDK.Hal.GPIO_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.GPIO"
+		},
+		{
+			"name" : "MikroSDK.Hal.UART_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.Hal.UART"
+		},
+		{
+			"name" : "MikroSDK.HalInterface_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalInterface"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.ADC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.ADC"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.GPIO_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.GPIO"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevel.UART_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevel.UART"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevelCommon_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCommon"
+		},
+		{
+			"name" : "MikroSDK.HalLowLevelCore_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.HalLowLevelCore"
+		},
+		{
+			"name" : "MikroSDK.MikroBus_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.MikroBus"
+		},
+		{
+			"name" : "MikroSDK.RingBuffer_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroSDK.RingBuffer"
 		},
 		{
 			"name" : "NECTO_DESIGNER_GENERATOR_PATH",
@@ -535,10 +727,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : ""
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "D:/NECTOStudio/NECTOStudio/vtft_generator.exe"
 		},
 		{
@@ -583,10 +775,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : ""
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "MikroC"
 		},
 		{
