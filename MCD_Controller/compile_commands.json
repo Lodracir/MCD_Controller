@@ -1,0 +1,7 @@
+[
+    {
+        "command": "D:\\NECTOStudio\\NECTOStudio\\compilers\\ARM\\mikroC\\mikroCARM.exe -pSTM32F303K8 -jcom -DL -NRL  -b\"C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8\" -fo1 -C -SSA -MF -O11111114 -DBG -UICD -SP\"C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8\" -SP\"D:/NECTOStudio/NECTOStudio/compilers/ARM/mikroC/core/def\" -SP\"C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller\" \"C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/STM32F303K8.jcfg\"  -out CMakeFiles\\MCD_Controller.dir\\main.emcl C:\\Users\\ric_e\\Documents\\MCU_Workspace\\Public_Projects\\MCD_Controller\\MCD_Controller\\main.c \"C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/lib_core.a\"",
+        "directory": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8",
+        "file": "C:\\Users\\ric_e\\Documents\\MCU_Workspace\\Public_Projects\\MCD_Controller\\MCD_Controller\\main.c"
+    }
+]

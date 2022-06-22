@@ -1,0 +1,234 @@
+{
+    "build_system": {
+        "build_output_path": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8",
+        "settings": {
+            "CMAKE_BUILD_TYPE": "Debug",
+            "CMAKE_CACHEFILE_DIR": "c:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8",
+            "CMAKE_CACHE_MAJOR_VERSION": "3",
+            "CMAKE_CACHE_MINOR_VERSION": "21",
+            "CMAKE_CACHE_PATCH_VERSION": "3",
+            "CMAKE_COMMAND": "D:/NECTOStudio/NECTOStudio/CMake/bin/cmake.exe",
+            "CMAKE_CPACK_COMMAND": "D:/NECTOStudio/NECTOStudio/CMake/bin/cpack.exe",
+            "CMAKE_CTEST_COMMAND": "D:/NECTOStudio/NECTOStudio/CMake/bin/ctest.exe",
+            "CMAKE_EXPORT_COMPILE_COMMANDS": "1",
+            "CMAKE_EXTRA_GENERATOR": null,
+            "CMAKE_GENERATOR": "Ninja",
+            "CMAKE_GENERATOR_INSTANCE": null,
+            "CMAKE_GENERATOR_PLATFORM": null,
+            "CMAKE_GENERATOR_TOOLSET": null,
+            "CMAKE_HOME_DIRECTORY": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller",
+            "CMAKE_INSTALL_PREFIX": "C:/Program Files (x86)/MCD_Controller",
+            "CMAKE_MAKE_PROGRAM": "D:/NECTOStudio/NECTOStudio/ninja.exe",
+            "CMAKE_MikroC_COMPILER": "D:/NECTOStudio/NECTOStudio/compilers/ARM/mikroC/mikroCARM.exe",
+            "CMAKE_MikroC_COMPILER_FORCED": "TRUE",
+            "CMAKE_MikroC_COMPILER_ID": "mikroC",
+            "CMAKE_MikroC_COMPILER_ID_RUN": "TRUE",
+            "CMAKE_MikroC_COMPILER_WORKS": "TRUE",
+            "CMAKE_NUMBER_OF_MAKEFILES": "1",
+            "CMAKE_PLATFORM_INFO_INITIALIZED": "1",
+            "CMAKE_PROJECT_DESCRIPTION": null,
+            "CMAKE_PROJECT_HOMEPAGE_URL": null,
+            "CMAKE_PROJECT_NAME": "MCD_Controller",
+            "CMAKE_ROOT": "D:/NECTOStudio/NECTOStudio/CMake/share/cmake-3.21",
+            "CMAKE_SKIP_INSTALL_RPATH": "NO",
+            "CMAKE_SKIP_RPATH": "NO",
+            "CMAKE_TOOLCHAIN_FILE": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8/toolchain.cmake",
+            "CMAKE_VERBOSE_MAKEFILE": "FALSE",
+            "CMAKE_mikroC_COMPILER_WORKS": "1",
+            "CORE_LIB": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/lib_core.a",
+            "CORE_NAME": "M4EF",
+            "JCFG_FILE": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/STM32F303K8.jcfg",
+            "MCD_Controller_BINARY_DIR": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8",
+            "MCD_Controller_IS_TOP_LEVEL": "ON",
+            "MCD_Controller_SOURCE_DIR": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller",
+            "MCU_NAME": "STM32F303K8",
+            "MIKROSDK_TYPE": "mikrosdk",
+            "MSDK_BUILD_TFT_MODULES": "FALSE",
+            "MikroC.Core_DIR": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/.meproject/setup/Debug/lib/cmake/MikroC.Core",
+            "NECTO_DESIGNER_GENERATOR_PATH": "D:/NECTOStudio/NECTOStudio/vtft_generator.exe",
+            "OSC": "1",
+            "SEARCH_PATHS": "C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/build-NUCLEO-F303K8;D:/NECTOStudio/NECTOStudio/compilers/ARM/mikroC/core/def;C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller",
+            "TOOLCHAIN_ID": "mikrocarm",
+            "TOOLCHAIN_LANGUAGE": "MikroC",
+            "_MSDK_BOARD_NAME_": "GENERIC_BOARD",
+            "_MSDK_DIP_SOCKET_TYPE_": null,
+            "_MSDK_HAL_LOW_LEVEL_TARGET_": "mikroe",
+            "_MSDK_PACKAGE_NAME_": "Tx"
+        },
+        "steps": {
+            "build": [
+                {
+                    "arguments": "--build all",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ],
+            "clean": [
+                {
+                    "arguments": "--clean",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ]
+        },
+        "uid": "cmake"
+    },
+    "env_uid": "28142807-f266-422f-9941-b0da16da385f",
+    "name": "NUCLEO-F303K8",
+    "prog": {
+        "auto_start_local_gdb": true,
+        "ip_address": "127.0.0.1",
+        "mcu_name": "STM32F303K8",
+        "port": "61234",
+        "protocol": "SWD",
+        "uid": "mikroprog_arm"
+    },
+    "sdk": {
+        "icon": "images/mikrosdk.png",
+        "legacy": 0,
+        "name": "mikroSDK",
+        "sdk_development_kit": 0,
+        "uid": "mikrosdk_v260",
+        "version": "2.6.0"
+    },
+    "target": {
+        "board": {
+            "uid": "GENERIC_ARM_BOARD"
+        },
+        "display": {
+            "height": "",
+            "uid": "NO_DISPLAY",
+            "width": ""
+        },
+        "mcu": {
+            "def_path": "ARM/mikroC/core/def/STM32F303K8.json",
+            "settings": {
+                "clock": "1",
+                "config_registers": [
+                    {
+                        "fields": [
+                            {
+                                "key": "HSION",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "HSEON",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "HSEBYP",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "CSSON",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PLLON",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "HSITRIM",
+                                "value": "00000080"
+                            }
+                        ],
+                        "key": "RCC_CR"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "SW",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "HPRE",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PPRE1",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PPRE2",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PLLSRC",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PLLXTPRE",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PLLMUL",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "USBPRE",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "I2SSRC",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "MCO",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "MCOPRE",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "PLLNODIV",
+                                "value": "00000000"
+                            }
+                        ],
+                        "key": "RCC_CFGR"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "PREDIV",
+                                "value": "00000000"
+                            },
+                            {
+                                "key": "ADC12PRES",
+                                "value": "00000000"
+                            }
+                        ],
+                        "key": "RCC_CFGR2"
+                    }
+                ],
+                "core": "M4EF",
+                "delay_src_path": "delays/m4ef/__lib_delays.c",
+                "mcu": "STM32F303K8",
+                "name": null
+            },
+            "uid": "STM32F303K8"
+        }
+    },
+    "toolchain": {
+        "c_compiler": "mikroCARM",
+        "clangd_config": "",
+        "cxx_compiler": "",
+        "gdb": "",
+        "mcu_support": "mcu.support.memcu",
+        "name": "mikroC AI for ARM",
+        "options": {
+            "ANSI_pack": false,
+            "ansi_data_type": "2",
+            "case_sensitive": true,
+            "dynamic_link_literals": false,
+            "generate_additional_files": true,
+            "generate_bin": false,
+            "long_hex_format": false,
+            "ssa_optimization_level": "4"
+        },
+        "path": "ARM/mikroC",
+        "uid": "mikrocarm",
+        "version": "1.2.0"
+    },
+    "uid": "aee6daac-85a9-471f-8933-eb5811612269"
+}
