@@ -1,9 +1,0 @@
-# ninja log v5
-0	156	6776397870553415	CMakeFiles/MCD_Controller.dir/main.emcl	1f5cfc4929e1fc21
-156	421	6776397872787441	MCD_Controller.hex	9706c808dcb7d5f3
-1	181	6776430603702657	CMakeFiles/MCD_Controller.dir/drv_app.emcl	35db7345dd897078
-182	513	6776430606590218	MCD_Controller.hex	ccfeada0eec6d5d5
-1	200	6776447494638035	CMakeFiles/MCD_Controller.dir/main.emcl	1f5cfc4929e1fc21
-34	203	6776447494657982	CMakeFiles/MCD_Controller.dir/drv_app.emcl	35db7345dd897078
-1	173	6776447789807875	CMakeFiles/MCD_Controller.dir/drv_app.emcl	35db7345dd897078
-174	473	6776447792321151	MCD_Controller.hex	ccfeada0eec6d5d5
