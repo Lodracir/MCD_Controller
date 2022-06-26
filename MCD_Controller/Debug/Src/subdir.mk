@@ -9,6 +9,7 @@ C_SRCS += \
 ../Src/sysmem.c 
 
 CPP_SRCS += \
+../Src/app_drv.cpp \
 ../Src/main.cpp 
 
 C_DEPS += \
@@ -16,11 +17,13 @@ C_DEPS += \
 ./Src/sysmem.d 
 
 OBJS += \
+./Src/app_drv.o \
 ./Src/main.o \
 ./Src/syscalls.o \
 ./Src/sysmem.o 
 
 CPP_DEPS += \
+./Src/app_drv.d \
 ./Src/main.d 
 
 
@@ -33,7 +36,7 @@ Src/%.o Src/%.su: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+	-$(RM) ./Src/app_drv.d ./Src/app_drv.o ./Src/app_drv.su ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
 
 .PHONY: clean-Src
 

@@ -9,6 +9,10 @@
 /* Include Header File */
 #include "Drivers/drv_gpio.hpp"
 
+/* Defines */
+#define EXTI_GPIOA	0
+#define EXTI_GPIOB	1
+
 /*
  *
  *
@@ -16,6 +20,31 @@
  */
 void HAL_GPIO::init(GPIO_TypeDef *GPIOx, GPIOInitStructure_t *GPIOx_cfg)
 {
+
+	/* Configure External Interruption only if was selected */
+	if( (GPIOx_cfg->Mode == GPIO_IT_RISING_MODE) || (GPIOx_cfg->Mode == GPIO_IT_FALLING_MODE) )
+	{
+		if(GPIOx_cfg->Pin <= 3)
+		{
+			if(GPIOx == GPIOA) { SYSCFG->EXTICR[0] |= (EXTI_GPIOA << ( GPIOx_cfg->Pin * 4 )); }
+			if(GPIOx == GPIOB) { SYSCFG->EXTICR[0] |= (EXTI_GPIOB << ( GPIOx_cfg->Pin * 4 )); }
+		}
+		else if( (GPIOx_cfg->Pin > 3) && (GPIOx_cfg->Pin <= 7 ) )
+		{
+			if(GPIOx == GPIOA) { SYSCFG->EXTICR[1] |= (EXTI_GPIOA << ( ( GPIOx_cfg->Pin - 4) * 4 )); }
+			if(GPIOx == GPIOB) { SYSCFG->EXTICR[1] |= (EXTI_GPIOB << ( ( GPIOx_cfg->Pin - 4) * 4 )); }
+		}
+		else if( (GPIOx_cfg->Pin > 7) && (GPIOx_cfg->Pin <= 11) )
+		{
+			if(GPIOx == GPIOA) { SYSCFG->EXTICR[2] |= (EXTI_GPIOA << ( ( GPIOx_cfg->Pin - 8) * 4 )); }
+			if(GPIOx == GPIOB) { SYSCFG->EXTICR[2] |= (EXTI_GPIOB << ( ( GPIOx_cfg->Pin - 8) * 4 )); }
+		}
+		else if( (GPIOx_cfg->Pin > 11) && (GPIOx_cfg->Pin <= 15) )
+		{
+			if(GPIOx == GPIOA) { SYSCFG->EXTICR[3] |= (EXTI_GPIOA << ( ( GPIOx_cfg->Pin - 12) * 4 )); }
+			if(GPIOx == GPIOB) { SYSCFG->EXTICR[3] |= (EXTI_GPIOB << ( ( GPIOx_cfg->Pin - 12) * 4 )); }
+		}
+	}
 
 	/* Set GPIOx Mode */
 	switch(GPIOx_cfg->Mode)
@@ -53,6 +82,27 @@ void HAL_GPIO::init(GPIO_TypeDef *GPIOx, GPIOInitStructure_t *GPIOx_cfg)
 		GPIOx->MODER |= (1 << GPIOx_cfg->Pin * 2);
 		GPIOx->MODER |= (1 << ( ( GPIOx_cfg->Pin * 2 ) + 1 ) );
 		break;
+
+	case GPIO_IT_RISING_MODE:
+		/* Configure as Input */
+		GPIOx->MODER &= ~(1 << GPIOx_cfg->Pin * 2 );
+		GPIOx->MODER &= ~(1 << ( ( GPIOx_cfg->Pin * 2 ) + 1 ) );
+
+		/* Configure EXTI Mask and Rising Interrupt */
+		EXTI->IMR |= (1 << GPIOx_cfg->Pin);
+		EXTI->RTSR |= (1 << GPIOx_cfg->Pin);
+		break;
+
+	case GPIO_IT_FALLING_MODE:
+		/* Configure as Input */
+		GPIOx->MODER &= ~(1 << GPIOx_cfg->Pin * 2 );
+		GPIOx->MODER &= ~(1 << ( ( GPIOx_cfg->Pin * 2 ) + 1 ) );
+
+		/* Configure EXTI Mask and Falling Interrupt */
+		EXTI->IMR |= (1 << GPIOx_cfg->Pin);
+		EXTI->FTSR |= (1 << GPIOx_cfg->Pin);
+		break;
+
 	}
 
 	/* Set GPIOx Pin PullUp/PullDown/NoPull  */
@@ -94,7 +144,14 @@ void HAL_GPIO::init(GPIO_TypeDef *GPIOx, GPIOInitStructure_t *GPIOx_cfg)
 	}
 
 	/* Set GPIOx Alternate Function */
-
+	if(GPIOx_cfg->Pin <= 7)
+	{
+		GPIOx->AFR[0] |= ( GPIOx_cfg->Alternate << (GPIOx_cfg->Pin * 4) );
+	}
+	else if(GPIOx_cfg->Pin > 7)
+	{
+		GPIOx->AFR[1] |= ( GPIOx_cfg->Alternate << ( (GPIOx_cfg->Pin - 8) * 4) );
+	}
 }
 
 /*
@@ -133,5 +190,5 @@ void HAL_GPIO::togglePin(GPIO_TypeDef *GPIOx, uint32_t pinNumber)
  */
 uint32_t HAL_GPIO::readPin(GPIO_TypeDef *GPIOx, uint32_t pinNumber)
 {
-	return ( GPIOx->IDR && pinNumber );
+	return ( GPIOx->IDR & (1 << pinNumber) );
 }

@@ -5,13 +5,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../Src/Drivers/drv_gpio.cpp 
+../Src/Drivers/drv_gpio.cpp \
+../Src/Drivers/drv_rcc.cpp 
 
 OBJS += \
-./Src/Drivers/drv_gpio.o 
+./Src/Drivers/drv_gpio.o \
+./Src/Drivers/drv_rcc.o 
 
 CPP_DEPS += \
-./Src/Drivers/drv_gpio.d 
+./Src/Drivers/drv_gpio.d \
+./Src/Drivers/drv_rcc.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +24,7 @@ Src/Drivers/%.o Src/Drivers/%.su: ../Src/Drivers/%.cpp Src/Drivers/subdir.mk
 clean: clean-Src-2f-Drivers
 
 clean-Src-2f-Drivers:
-	-$(RM) ./Src/Drivers/drv_gpio.d ./Src/Drivers/drv_gpio.o ./Src/Drivers/drv_gpio.su
+	-$(RM) ./Src/Drivers/drv_gpio.d ./Src/Drivers/drv_gpio.o ./Src/Drivers/drv_gpio.su ./Src/Drivers/drv_rcc.d ./Src/Drivers/drv_rcc.o ./Src/Drivers/drv_rcc.su
 
 .PHONY: clean-Src-2f-Drivers
 

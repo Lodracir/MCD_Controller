@@ -1,0 +1,23 @@
+#ifndef DRIVERS_DRV_RCC_HPP_
+#define DRIVERS_DRV_RCC_HPP_
+
+/* MCU Include */
+#include "stm32f3xx.h"
+
+/* Macros System Configuration CLK Enable */
+#define _RCC_SYSCFG_EN()		( RCC->APB2ENR |= (1 << 0) )
+
+/* Macros GPIO CLK Enable */
+#define _RCC_GPIOA_CLK_EN()		( RCC->AHBENR |= (1 << 17) )
+#define _RCC_GPIOB_CLK_EN()		( RCC->AHBENR |= (1 << 18) )
+
+class HAL_RCC
+{
+public:
+void	set_AHBPeriph( uint32_t periph, uint32_t set );
+void	set_APB2Periph( uint32_t periph, uint32_t set );
+
+private:
+};
+
+#endif /* DRIVERS_DRV_RCC_HPP_ */

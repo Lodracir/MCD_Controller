@@ -1,0 +1,9 @@
+#ifndef DRIVERS_DRV_RCC_HPP_
+#define DRIVERS_DRV_RCC_HPP_
+
+
+/* Macros */
+#define _RCC_GPIOA_CLK_EN()		( RCC->AHBENR |= (1 << 17) )
+#define _RCC_GPIOB_CLK_EN()		( RCC->AHBENR |= (1 << 18) )
+
+#endif /* DRIVERS_DRV_RCC_HPP_ */

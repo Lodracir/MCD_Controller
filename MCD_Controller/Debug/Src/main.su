@@ -1,2 +1,1 @@
-../Src/main.cpp:10:5:int main()	16	static
-../Src/main.cpp:29:13:void MX_GPIO_Init()	24	static
+../Src/main.cpp:10:5:int main()	8	static

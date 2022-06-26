@@ -6,7 +6,7 @@ Src/main.o: ../Src/main.cpp ../Inc/main.h \
  C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/Drivers/CMSIS/Include/cmsis_compiler.h \
  C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/Drivers/CMSIS/Include/cmsis_gcc.h \
  C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h \
- ../Inc/Drivers/drv_gpio.hpp
+ ../Inc/Drivers/drv_gpio.hpp ../Inc/Drivers/drv_rcc.hpp
 ../Inc/main.h:
 C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h:
 C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h:
@@ -16,3 +16,4 @@ C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Contro
 C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/Drivers/CMSIS/Include/cmsis_gcc.h:
 C:/Users/ric_e/Documents/MCU_Workspace/Public_Projects/MCD_Controller/MCD_Controller/Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h:
 ../Inc/Drivers/drv_gpio.hpp:
+../Inc/Drivers/drv_rcc.hpp:

@@ -16,5 +16,6 @@
 
 /* App Drivers Libraries */
 #include "Drivers/drv_gpio.hpp"
+#include "Drivers/drv_rcc.hpp"
 
 #endif /* MAIN_H_ */

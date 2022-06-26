@@ -1,0 +1,27 @@
+/* Main Include */
+#include "main.h"
+
+/* Drivers Classes */
+extern HAL_GPIO hgpio;
+
+ /*
+  * Main Function
+  */
+int main(void)
+{
+
+	/* Peripheral Inits */
+	SystemInit();
+
+	/* Set PB3 State */
+	hgpio.writePin( GPIOB, GPIO_PIN_3, GPIO_RESET );
+
+	while(1)
+	{
+		hgpio.togglePin( GPIOB, GPIO_PIN_3 );
+
+		for(int itr = 0; itr < 500000; itr++);
+	}
+
+}
+

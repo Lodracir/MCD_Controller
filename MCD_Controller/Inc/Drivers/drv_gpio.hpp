@@ -5,6 +5,10 @@
 #include "stm32f3xx.h"
 
 /* Defines */
+#define HIGH	1
+#define	LOW		0
+
+/* Defines GPIO Pins */
 #define GPIO_PIN_0		0
 #define GPIO_PIN_1		1
 #define GPIO_PIN_2		2
@@ -22,26 +26,42 @@
 #define GPIO_PIN_14		14
 #define GPIO_PIN_15		15
 
+/* Defines GPIO Alternative Functions */
+#define GPIO_AF0	0
+#define GPIO_AF1	1
+#define GPIO_AF2	2
+#define GPIO_AF3	3
+#define GPIO_AF4	4
+#define GPIO_AF5	5
+#define GPIO_AF6	6
+#define GPIO_AF7	7
+#define GPIO_AF8	8
+#define GPIO_AF9	9
+#define GPIO_AF10	10
+#define GPIO_AF11	11
+#define GPIO_AF12	12
+#define GPIO_AF13	13
+#define GPIO_AF14	14
+#define GPIO_AF15	15
+
 /* Typedef Enums */
 typedef enum
 {
-
 	GPIO_INPUT_MODE,
 	GPIO_OUTPUT_PP_MODE,
 	GPIO_OUTPUT_OD_MODE,
 	GPIO_ALTFCN_PP_MODE,
 	GPIO_ALTFCN_OD_MODE,
-	GPIO_ANALOG_MODE
-
+	GPIO_ANALOG_MODE,
+	GPIO_IT_RISING_MODE,
+	GPIO_IT_FALLING_MODE
 }GPIO_MODE_t;
 
 typedef enum
 {
-
 	GPIO_PULLUP,
 	GPIO_PULLDOWN,
 	GPIO_NOPULL
-
 }GPIO_Pull_t;
 
 typedef enum
