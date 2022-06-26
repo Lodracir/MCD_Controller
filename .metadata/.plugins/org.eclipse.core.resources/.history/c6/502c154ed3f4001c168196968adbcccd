@@ -1,0 +1,24 @@
+/*
+ * drv_gpio.cpp
+ *
+ *  Created on: Jun 25, 2022
+ *      Author: ric_e
+ */
+
+/* Include Header File */
+#include "Drivers/drv_gpio.hpp"
+
+/*
+ *
+ *
+ *
+ */
+void HAL_GPIO::init(GPIO_TypeDef *GPIOx, GPIOInitStructure_t *GPIOx_cfg)
+{
+
+	/* Set GPIOx Mode */
+	GPIOx->MODER |= (GPIOx_cfg->Mode << ( GPIOx_cfg->Pin * 2));
+
+	/**/
+
+}

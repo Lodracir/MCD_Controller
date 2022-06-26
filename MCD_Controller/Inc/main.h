@@ -8,8 +8,13 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+/* MCU Include */
+#include "stm32f3xx.h"
+
 /* ANSI C Libraries */
 #include <stdint.h>
 
+/* App Drivers Libraries */
+#include "Drivers/drv_gpio.hpp"
 
 #endif /* MAIN_H_ */

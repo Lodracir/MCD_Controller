@@ -1,0 +1,49 @@
+/* Main Include */
+#include "main.h"
+
+/* Drivers Classes */
+HAL_GPIO hgpio;
+
+/* Prototype Functions */
+static void MX_GPIO_Init(void);
+
+int main(void)
+{
+
+	/* Peripheral Inits */
+	//MX_GPIO_Init();
+
+	RCC->AHBENR |= (1 << 18);
+
+	GPIOB->MODER |= (1 << 6 );
+	GPIOB->MODER &= ~(1 << 7 );
+	GPIOB->OTYPER &= ~(1 << 3);
+
+	/* Set PB3 High */
+	//hgpio.writePin(GPIOB, GPIO_PIN_3, HAL_SET);
+	GPIOB->ODR |= (1 << 3);
+
+
+	while(1)
+	{
+
+	}
+
+}
+
+
+static void MX_GPIO_Init(void)
+{
+
+	RCC->AHBENR |= (1 << 18);
+
+	GPIOInitStructure_t GPIO_cfg;
+
+	GPIO_cfg.Pin 	= GPIO_PIN_3;
+	GPIO_cfg.Mode	= GPIO_OUTPUT_PP_MODE;
+	GPIO_cfg.Pull	= GPIO_NOPULL;
+	GPIO_cfg.Speed	= GPIO_LOW_SPEED;
+
+	hgpio.init( GPIOB, &GPIO_cfg );
+
+}

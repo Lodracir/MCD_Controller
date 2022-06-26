@@ -1,0 +1,9 @@
+#ifndef DRIVERS_DRV_GPIO_HPP_
+#define DRIVERS_DRV_GPIO_HPP_
+
+/* MCU Include */
+#include "stm32f3xx.h"
+
+GPIOB->ODR |= (1 << 3);
+
+#endif /* DRIVERS_DRV_GPIO_HPP_ */
