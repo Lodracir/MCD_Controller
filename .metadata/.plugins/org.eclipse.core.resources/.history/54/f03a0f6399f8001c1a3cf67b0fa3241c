@@ -1,0 +1,23 @@
+/* Include File */
+#include "stm32f3xx_it.h"
+
+/*
+ *
+ */
+void SysTick_Handler(void)
+{
+	HAL_IncTick();
+}
+
+/*
+ * EXTI Functions
+ */
+void EXTI9_5_IRQHandler(void)
+{
+	HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_5);
+}
+
+void EXTI15_10_IRQHandler(void)
+{
+	HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_11);
+}

@@ -3220,3 +3220,12 @@ Command-line arguments:  -data /home/lodracir/Documentos/Proyectos/MCD_Controlle
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-06-30 10:49:18.718
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-30 11:15:24.618
+!MESSAGE Indexed 'DCMotor_Controller' (2 sources, 53 headers) in 0.857 sec: 1,947 declarations; 2,809 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-30 11:19:54.397
+!MESSAGE Indexed 'DCMotor_Controller' (78 sources, 68 headers) in 1.62 sec: 3,561 declarations; 8,446 references; 1 unresolved inclusions; 2 syntax errors; 131 unresolved names (1.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-30 11:24:43.212
+!MESSAGE Indexed 'DCMotor_Controller' (81 sources, 88 headers) in 1.87 sec: 6,657 declarations; 45,494 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0038%)
