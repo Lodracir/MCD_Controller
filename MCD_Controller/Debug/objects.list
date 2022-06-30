@@ -1,7 +1,0 @@
-"./Src/Drivers/drv_gpio.o"
-"./Src/Drivers/drv_rcc.o"
-"./Src/app_drv.o"
-"./Src/main.o"
-"./Src/syscalls.o"
-"./Src/sysmem.o"
-"./Startup/startup_stm32f303k8tx.o"

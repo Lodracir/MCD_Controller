@@ -1,2 +1,0 @@
-../Src/Drivers/drv_rcc.cpp:4:6:void HAL_RCC::AHB_SetPeriphClock(uint32_t, RCC_Periph_Clk_Set_t)	24	static
-../Src/Drivers/drv_rcc.cpp:18:6:void HAL_RCC::APB2_SetPeriphClock(uint32_t, RCC_Periph_Clk_Set_t)	24	static

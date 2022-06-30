@@ -1,2 +1,0 @@
-../Src/app_drv.cpp:17:6:void SystemInit()	8	static
-../Src/app_drv.cpp:30:13:void MX_GPIO_Init()	24	static
