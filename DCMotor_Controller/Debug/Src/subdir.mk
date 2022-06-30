@@ -31,7 +31,7 @@ C_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Src/%.o Src/%.su: ../Src/%.c Src/subdir.mk
-	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -c -I../Inc -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/CMSIS/Include -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/CMSIS/Device/ST/STM32F3xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -c -I../Inc -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/CMSIS/Include -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Application/Inc -I/home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Application/Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
 clean: clean-Src
 

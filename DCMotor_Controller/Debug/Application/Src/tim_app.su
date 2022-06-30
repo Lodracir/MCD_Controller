@@ -1,0 +1,2 @@
+../Application/Src/tim_app.c:12:6:MX_TIM1_Init	4	static
+../Application/Src/tim_app.c:17:6:MX_TIM2_Init	16	static

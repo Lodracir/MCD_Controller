@@ -2,7 +2,6 @@
 #define MAIN_H_
 
 /* STM32F3xx Hal Driver Include */
-#include "main_app.h"
 #include "stm32f3xx_hal.h"
 
 /* ANSI C Libraries */
@@ -10,5 +9,6 @@
 #include <stdint.h>
 
 /* User Application Include */
+
 
 #endif /* MAIN_H_ */

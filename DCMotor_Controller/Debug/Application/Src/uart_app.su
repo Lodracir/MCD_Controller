@@ -1,0 +1,2 @@
+../Application/Src/uart_app.c:7:6:MX_UART2_Init	16	static
+../Application/Src/uart_app.c:31:5:__io_putchar	16	static

@@ -3229,3 +3229,6 @@ Command-line arguments:  -data /home/lodracir/Documentos/Proyectos/MCD_Controlle
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-06-30 11:24:43.212
 !MESSAGE Indexed 'DCMotor_Controller' (81 sources, 88 headers) in 1.87 sec: 6,657 declarations; 45,494 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0038%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-30 11:31:42.577
+!MESSAGE Indexed 'DCMotor_Controller' (81 sources, 92 headers) in 1.37 sec: 6,636 declarations; 45,113 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0039%)

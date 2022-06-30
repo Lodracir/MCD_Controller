@@ -1,4 +1,4 @@
-Src/main.o: ../Src/main.c ../Inc/main.h \
+Application/Src/main_app.o: ../Application/Src/main_app.c \
  /home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Application/Inc/main_app.h \
  /home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
  ../Inc/stm32f3xx_hal_conf.h \
@@ -32,7 +32,6 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
  /home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Application/Inc/gpio_app.h \
  /home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Application/Inc/main_app.h \
  /home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Application/Inc/uart_app.h
-../Inc/main.h:
 /home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Application/Inc/main_app.h:
 /home/lodracir/Documentos/Proyectos/MCD_Controller/DCMotor_Controller/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:
 ../Inc/stm32f3xx_hal_conf.h:
